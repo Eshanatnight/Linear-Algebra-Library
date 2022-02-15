@@ -1,0 +1,12 @@
+#IDE and Text Editor Stuff
+/.idea
+/.vs
+/.vscode
+
+
+#Temporary Files
+la.h
+Makefile
+ball.c
+lag.c
+README.md
