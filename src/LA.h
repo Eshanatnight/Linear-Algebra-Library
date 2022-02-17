@@ -1,18 +1,11 @@
 #ifndef LINEAR_ALGEBRA_LIBRARY_LA_H
 #define LINEAR_ALGEBRA_LIBRARY_LA_H
 
-// LEGACY C OUTPUT FORMAT SPECIFIERS
-// Probably not needed anymore
-#ifndef LEGACY
-#define V2f_Fmt "v2f(%f, %f)"
-#define V2f_Arg(v) (v).x, (v).y
-#endif // LEGACY
-
 #include <cmath>
 // #include <initilaizer_list>
 
 
-//  Linear Interpolation Helper Fuctions
+// Linear Interpolation Helper Fuctions
 double lerp(double a, double b, double t)
 {
     return a + (b - a) * t;
@@ -22,8 +15,7 @@ float lerp(float a, float b, float t)
     return a + (b - a) * t;
 }
 
-
-
+// Start of LA Namespace
 namespace LA
 {
     // Vector Of 2 Diamensions
